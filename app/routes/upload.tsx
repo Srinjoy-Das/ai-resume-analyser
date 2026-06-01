@@ -68,6 +68,8 @@ const handleAnalyze = async ({companyName, jobTitle, jobDescription, file}
             setStatusText('Analysis Complete, Redirecting...');
 
             console.log(data);
+
+            Navigate(`/resume/${uuid}`);
         }
 
 
