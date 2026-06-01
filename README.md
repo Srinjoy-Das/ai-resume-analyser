@@ -55,18 +55,25 @@ AI-powered resume analysis platform that evaluates resumes, generates ATS-style 
 
 ## 📸 Screenshots
 
-### Home Page
+### Login Page
 
 <img width="1556" height="956" alt="Screenshot 2026-06-02 003103" src="https://github.com/user-attachments/assets/902bd3d4-7d61-47e2-8b89-bac9023fc8fa" />
+
+### Home Page
+
+<img width="1863" height="945" alt="image" src="https://github.com/user-attachments/assets/9ed1de34-4a57-4ea9-8adb-adc22ebfe7cb" />
 
 
 ### Resume Upload
 
-(Add screenshot here)
+<img width="1862" height="938" alt="image" src="https://github.com/user-attachments/assets/21f8bd32-9e85-43c7-9630-82093341e7f9" />
+
 
 ### Analysis Dashboard
 
-(Add screenshot here)
+<img width="1861" height="945" alt="image" src="https://github.com/user-attachments/assets/2b370a50-c498-45da-bf8c-d8328bac7411" />
+
+<img width="1863" height="941" alt="image" src="https://github.com/user-attachments/assets/27c5da27-8b4c-4679-badf-9e185e76d5dc" />
 
 ---
 
