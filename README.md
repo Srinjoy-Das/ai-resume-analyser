@@ -1,87 +1,167 @@
-# Welcome to React Router!
+# 🧠 SynapseCV
 
-A modern, production-ready template for building full-stack React applications using React Router.
+AI-powered resume analysis platform that evaluates resumes, generates ATS-style insights, visualizes strengths and weaknesses, and helps candidates improve their job application success rate.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+🌐 Live Demo: https://synapsecv.netlify.app
 
-## Features
+---
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## ✨ Features
 
-## Getting Started
+* 📄 Resume PDF Upload
+* 🖼 PDF Preview Rendering
+* 🤖 AI-Powered Resume Evaluation
+* 📊 ATS-Style Resume Scoring
+* 📈 Resume Analytics Dashboard
+* 🎯 Skill & Content Analysis
+* 🔍 Resume Strength/Weakness Detection
+* 🔐 Browser-Based Authentication with Puter.js
+* 📱 Fully Responsive UI
+* ⚡ Fast Vite Build System
 
-### Installation
+---
 
-Install the dependencies:
+## 🚀 Tech Stack
+
+### Frontend
+
+* React 19
+* React Router v7
+* TypeScript
+* Tailwind CSS
+* Vite
+
+### State Management
+
+* Zustand
+
+### Resume Processing
+
+* PDF.js
+* PDF to Image Conversion
+
+### Cloud Services
+
+* Puter.js
+* Puter Auth
+* Puter Storage
+* Puter AI
+
+### Deployment
+
+* Netlify
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+
+<img width="1556" height="956" alt="Screenshot 2026-06-02 003103" src="https://github.com/user-attachments/assets/902bd3d4-7d61-47e2-8b89-bac9023fc8fa" />
+
+
+### Resume Upload
+
+(Add screenshot here)
+
+### Analysis Dashboard
+
+(Add screenshot here)
+
+---
+
+## 🏗 Project Structure
+
+```bash
+app/
+├── components/
+├── routes/
+├── lib/
+├── root.tsx
+├── app.css
+
+constants/
+public/
+types/
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Srinjoy-Das/ai-resume-analyser.git
+```
+
+Move into the project:
+
+```bash
+cd ai-resume-analyser
+```
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Development
-
-Start the development server with HMR:
+Run development server:
 
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
+Build for production:
 
 ```bash
 npm run build
 ```
 
-## Deployment
+---
 
-### Docker Deployment
+## 🌍 Deployment
 
-To build and run using Docker:
+This project is deployed on Netlify.
 
-```bash
-docker build -t my-app .
+Live URL:
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+https://synapsecv.netlify.app
 
 ---
 
-Built with ❤️ using React Router.
+## 📚 What I Learned
+
+* React Router v7 architecture
+* TypeScript in production applications
+* PDF rendering and processing
+* State management with Zustand
+* Browser-based authentication using Puter.js
+* Modern deployment workflows with Netlify
+* Component-driven UI development
+
+---
+
+## 🔮 Future Improvements
+
+* Resume history tracking
+* Multiple resume versions
+* Job description matching
+* AI-generated resume suggestions
+* Cover letter generation
+* Resume comparison system
+* Dark mode support
+
+---
+
+## 👨‍💻 Author
+
+Srinjoy Das
+
+GitHub:
+https://github.com/Srinjoy-Das
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a star on GitHub.
